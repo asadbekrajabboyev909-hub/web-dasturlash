@@ -1,0 +1,106 @@
+/* ==========================================
+   CSS O'zgaruvchilari (Palitra)
+   ================================---------- */
+:root {
+    --asosiy-rang: #1f3a5f;
+    --ikkilamchi-rang: #e0a96d;
+    --fon-rangi: #f7f9fc;
+    --matn-rangi: #2b2b2b;
+}
+
+/* ==========================================
+   Teg selektorlari va Asosiy sozlamalar
+   ================================---------- */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: var(--fon-rangi);
+    color: var(--matn-rangi);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--asosiy-rang);
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1rem;
+    font-style: normal;
+}
+
+/* ==========================================
+   Navigatsiya menyusi va Havolalar holati
+   ================================---------- */
+nav {
+    background-color: var(--asosiy-rang);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Avlod selektori */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Havolalar holati (a, a:hover, a:visited) */
+a {
+    color: var(--ikkilamchi-rang);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:visited {
+    color: #9c6b30;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* ==========================================
+   Guruhlangan selektorlar va sinflar (Class/ID)
+   ================================---------- */
+/* Guruhlangan selektor */
+h2, h3 {
+    color: var(--asosiy-rang);
+    text-transform: capitalize;
+}
+
+/* Class selektori */
+.izoh {
+    font-style: italic;
+    color: #555555;
+    background-color: #eaeaea;
+    padding: 8px;
+    border-left: 4px solid var(--ikkilamchi-rang);
+}
+
+/* ID selektori */
+#aloqa {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.sarlavha-rang {
+    color: #b85d18;
+    letter-spacing: 0.5px;
+}
