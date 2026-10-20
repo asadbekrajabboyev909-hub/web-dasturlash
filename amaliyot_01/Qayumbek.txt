@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kutubxona katalogi va kitoblar bo'yicha batafsil ma'lumot sahifasi.">
+    <title>Batafsil ma'lumot - Kutubxona katalogi</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Tashqi CSS fayl -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="yuqori-batafsil"></div>
+
+    <!-- Navigatsiya menyusi -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Bosh sahifa</a></li>
+            <li><a href="batafsil.html">Batafsil katalog</a></li>
+            <li><a href="#aloqa">Aloqa</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Kutubxona katalogi bo'yicha batafsil ma'lumot</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Katalog bo'limlari va qidiruv</h2>
+            <p>Kutubxonamizda kitobxonlar uchun maxsus elektron va an'anaviy kataloglar tashkil etilgan. Yangi kelgan adabiyotlar uchun qulay <em>elektron terminal va qidiruv tizimlari</em> doimo hozir-u nazir.</p>
+
+            <p>Kutubxonadan foydalanishda quyidagi tartibga amal qilish tavsiya etiladi:</p>
+            <ol>
+                <li>Kutubxona a'zolik kartasini rasmiylashtirish</li>
+                <li>Elektron katalog orqali kerakli kitob shiffrini topish</li>
+                <li>Kitobni o'quv zaliga yoki uyga foydalanish uchun rasmiylashtirish</li>
+            </ol>
+
+            <p>Ilmiy va badiiy adabiyotlarni raqamlashtirishda <sub>axborot</sub> texnologiyalarining o'rni beqiyos.</p>
+        </section>
+
+        <section>
+            <h2 class="sarlavha-rang">Kitob turlari va foydalanish shartlari</h2>
+            <p>Kutubxonamiz fondidan foydalanish uchun eng qulay vaqt &mdash; har kuni soat 09:00 dan 18:00 gacha. O'quv zallarimizda kitob o'qish uchun birmuncha qulay sharoitlar yaratilgan.</p>
+            
+            <p>Badiiy adabiyotlar bilan bir qatorda ilmiy jurnallar va darsliklardan ham tatib ko'rishni (o'qishni) unutmang. Masalan, xorijiy tillardagi <em>texnik adabiyotlar</em> va <em>jahon klassikasi</em> asarlari o'ziga xos boy mazmunga ega.</p>
+        </section>
+
+        <!-- Aloqa bo'limi (#aloqa id bilan) -->
+        <section id="aloqa">
+            <h2>Aloqa va Kitob buyurtma qilish</h2>
+            <p>Biz bilan bog'lanish va kerakli kitoblarga oldindan buyurtma berish uchun quyidagi aloqa vositalaridan foydalaning:</p>
+            <p>Elektron pochta orqali: <a href="mailto:library@kutubxona.uz">library@kutubxona.uz</a></p>
+            <p>Telefon raqamimiz: <a href="tel:+998622230000">+998 (62) 223-00-00</a></p>
+        </section>
+
+        <!-- Muallif haqida qismi -->
+        <section>
+            <h2>Muallif haqida</h2>
+            <p><strong>Ism-familiya:</strong> Asadbek Rajabboyev</p>
+            <p><strong>Guruh:</strong> 942-24 Dasturiy injiniring</p>
+            <p><strong>Mavzu tanlash sababi:</strong> Kitoblar olami va zamonaviy kutubxona tizimlarini raqamlashtirish jarayonlariga qiziqqanim hamda foydalanuvchilar uchun qulay katalog yaratishni istaganim uchun ushbu mavzuni tanladim.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="#yuqori-batafsil">Yuqoriga qaytish &uarr;</a></p>
+    </footer>
+
+body>
+</html>
